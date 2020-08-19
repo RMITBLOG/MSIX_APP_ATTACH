@@ -22,6 +22,8 @@ The Json should look like the following example:
 ## MSIX Mgr 
 https://aka.ms/msixmgr
 
+## Some cool tools to speed up the process....
+
 You can use the following technologys to create MSIX Apps and pepare into MSIX App Attach quickly.
 
 - Create MSIX Apps without any installation media https://www.appcure.io/
