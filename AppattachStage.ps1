@@ -21,7 +21,7 @@
 #>
 
 
-$configFPath = (Get-ChildItem $PSScriptloc -Filter *.json | Select-Object -First 1).FullName;
+$configFPath = (Get-ChildItem $PSScriptRoot -Filter *.json | Select-Object -First 1).FullName;
 if ($null -eq $configFPath)
 {
 	throw "Missing config file Json!!";
@@ -31,7 +31,7 @@ $configFile = Get-Content $configFPath -Raw | ConvertFrom-Json;
 
 foreach ($package in $configFile)
 {
-	$vhdSrc = Join-Path $PSScriptloc $package.vhdFileName;
+	$vhdSrc = Join-Path $PSScriptRoot $package.vhdFileName;
 	$packageName = $package.packageName;
 	$parentFolder = "\" + $package.parentFolder + "\";
 	$volumeGuid = $package.volumeGuid;

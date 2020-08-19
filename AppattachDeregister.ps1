@@ -22,7 +22,7 @@
 
 
 
-$configFPath = (Get-ChildItem $PSScriptloc -Filter *.json | Select-Object -First 1).FullName;
+$configFPath = (Get-ChildItem $PSScriptRoot -Filter *.json | Select-Object -First 1).FullName;
 if ($null -eq $configFPath)
 {
 	throw "Missing config file Json!";
