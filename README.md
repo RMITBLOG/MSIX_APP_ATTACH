@@ -28,3 +28,7 @@ You can use the following technologys to create MSIX Apps and pepare into MSIX A
 
 - Create MSIX Apps without any installation media https://www.appcure.io/
 - MSIX App attach ready in Seconds - https://www.appattach.co.uk/ 
+
+
+
+Find out more on WVD and VDI - https://ryanmangansitblog.com
