@@ -18,3 +18,11 @@ The Json should look like the following example:
     "packageName": "Chrome_1.0.0.0_x64__ekey3h7rct2nj",
     "volumeGuid": "68c840d5-f0f2-4eac-9534-72f37cd8f864",
     "msixJunction": "C:\\temp\\AppAttach"
+
+## MSIX Mgr 
+https://aka.ms/msixmgr
+
+You can use the following technologys to create MSIX Apps and pepare into MSIX App Attach quickly.
+
+- Create MSIX Apps without any installation media https://www.appcure.io/
+- MSIX App attach ready in Seconds - https://www.appattach.co.uk/ 
