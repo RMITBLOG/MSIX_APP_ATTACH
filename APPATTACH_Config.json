@@ -1,0 +1,10 @@
+[
+  {
+    "_comment1": "You can name the applicaton or provide notes in this comment section",
+    "vhdFileName": "<enter filename>.vhd",
+    "parentFolder": "<parent folder name>",
+    "packageName": "<packagename>",
+    "volumeGuid": "<vdisk guid>",
+    "msixJunction": "C:\\temp\\AppAttach"
+  }
+]

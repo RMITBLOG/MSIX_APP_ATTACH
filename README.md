@@ -1,0 +1,20 @@
+# MSIX_APP_ATTACH
+
+
+## Instructions:
+
+1. Ensure all files and Virtual Disk (VHD or VHDX) are in the same folder.
+2. Ensure all Scripts are signed, for a smoother expeirence as in no set-execution policy.
+3. ensure you edit the configuration file (Json) with the correct information.
+
+These scripts are recommended for testing MSIX App Attach applications.
+
+## JSON file configuration example
+
+The Json should look like the following example:
+
+    "vhdFileName": "chrome.vhd",
+    "parentFolder": "MSIX",
+    "packageName": "Chrome_1.0.0.0_x64__ekey3h7rct2nj",
+    "volumeGuid": "68c840d5-f0f2-4eac-9534-72f37cd8f864",
+    "msixJunction": "C:\\temp\\AppAttach"
