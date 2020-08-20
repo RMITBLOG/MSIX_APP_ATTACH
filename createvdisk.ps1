@@ -12,7 +12,7 @@
 #>
 
 # Create Vdisk for App Attach
-$filepath = read-Host "Wnter the file path and name for the VHD e.g c:\temp\notepad++.vhd"
+$filepath = read-Host "Enter the file path and name for the VHD e.g c:\temp\notepad++.vhd"
 #Create vdisk
 New-VHD -SizeBytes 1024MB -Path $filepath -Dynamic -Confirm:$false
 #mount vdisk
