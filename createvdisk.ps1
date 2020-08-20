@@ -12,6 +12,8 @@
 #>
 
 # Create Vdisk for App Attach
+write-Host "Ryan Mangans IT Blog Technical Demo" -ForegroundColor yellow
+Write-Host "MSIX App Attach Disk creation" -ForegroundColor Green
 $filepath = read-Host "Enter the file path and name for the VHD e.g c:\temp\notepad++.vhd"
 #Create vdisk
 New-VHD -SizeBytes 1024MB -Path $filepath -Dynamic -Confirm:$false
