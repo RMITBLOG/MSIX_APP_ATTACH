@@ -27,7 +27,7 @@ https://aka.ms/msixmgr
 
 ## in progress.... not released. Contact for more info.
 
-a Cim image looks like this:
+A Cim image looks like this:
 
 ![Cim image](https://github.com/RMITBLOG/MSIX_APP_ATTACH/blob/master/TC5vlEDh.png)
 
