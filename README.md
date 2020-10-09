@@ -23,7 +23,7 @@ The Json should look like the following example:
 https://aka.ms/msixmgr
 
 
-## (Composite Images (CIMs))
+# (Composite Images (CIMs))
 
 in progress.... not released. Contact for more info.
 
@@ -52,6 +52,19 @@ The following sample applications have been included:
 5. Notepadpp
 
 Ensure you install the provided certificate into the root before using these cim images with MSIX App Attach.
+
+Process for testing Cim....
+
+1. ensure the cim files are placed in the root directory. This can be a mounted VHD or c:\
+2. mount the cim recording the volume guid from the output
+3. load the powershell scripts as a administrator
+4. Run the modified staging script
+5. register the App.
+6. test the application.
+7. de-register the app.
+8. destage the app.
+9. unmount the cim image
+10. clean up the root directory
 
 
 ## Some cool tools to speed up the process....
