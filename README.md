@@ -29,7 +29,7 @@ https://aka.ms/msixmgr
 
 a Cim image looks like this:
 
-https://github.com/RMITBLOG/MSIX_APP_ATTACH/blob/master/TC5vlEDh.png
+![Cim image](https://github.com/RMITBLOG/MSIX_APP_ATTACH/blob/master/TC5vlEDh.png)
 
 The Json should look like the following example:
 
