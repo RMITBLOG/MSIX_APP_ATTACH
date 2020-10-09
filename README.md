@@ -35,9 +35,9 @@ The Json should look like the following example:
 
 The guid is still needed for testing locally.
 
-##### cimutil.exe m <name.cim> 
+cimutil.exe m "filename.cim"
 
-##### cimutil.exe d <Volume guid>
+cimutil.exe d "volume guid" 
 
 Cim images must be run on the root directory when tesing.
 
