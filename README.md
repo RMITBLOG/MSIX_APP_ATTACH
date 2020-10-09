@@ -37,7 +37,7 @@ The guid is still needed for testing locally.
 
 cimutil.exe m <name.cim> 
 
-cimutil.exe d <guid>
+cimutil.exe d <Volume guid>
 
 Cims must be run on the root directory when tesing.
 
