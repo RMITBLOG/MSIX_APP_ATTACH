@@ -53,7 +53,7 @@ The following sample applications have been included:
 
 Ensure you install the provided certificate into the root before using these cim images with MSIX App Attach.
 
-Process for testing Cim....
+###Process for testing Cim....
 
 1. ensure the cim files are placed in the root directory. This can be a mounted VHD or c:\
 2. mount the cim recording the volume guid from the output
