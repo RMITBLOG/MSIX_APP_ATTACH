@@ -25,6 +25,8 @@ https://aka.ms/msixmgr
 
 ## (Composite Images (CIMs))
 
+in progress.... not released. Contact for more info.
+
 The Json should look like the following example:
 
     "vhdFileName": "not needed",
@@ -40,6 +42,16 @@ cimutil.exe m "filename.cim"
 cimutil.exe d "volume guid" 
 
 Cim images must be run on the root directory when tesing.
+
+The following sample applications have been included:
+
+1. Pinball
+2. Yandex
+3. Putty
+4. MS Edge
+5. Notepadpp
+
+Ensure you install the provided certificate into the root before using these cim images with MSIX App Attach.
 
 
 ## Some cool tools to speed up the process....
