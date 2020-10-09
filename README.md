@@ -25,7 +25,7 @@ https://aka.ms/msixmgr
 
 # (Composite Images (CIMs))
 
-in progress.... not released. Contact for more info.
+## in progress.... not released. Contact for more info.
 
 The Json should look like the following example:
 
