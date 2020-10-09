@@ -22,6 +22,25 @@ The Json should look like the following example:
 ## MSIX Mgr 
 https://aka.ms/msixmgr
 
+
+## (Composite Images (CIMs))
+
+The Json should look like the following example:
+
+    "vhdFileName": "not needed",
+    "parentFolder": "MSIX",
+    "packageName": "Chrome_1.0.0.0_x64__ekey3h7rct2nj",
+    "volumeGuid": "68c840d5-f0f2-4eac-9534-72f37cd8f864",
+    "msixJunction": "C:\\temp\\AppAttach"
+
+The guid is still needed for testing locally.
+
+cimutil.exe m <name.cim> 
+cimutil.exe d <guid>
+
+Cims must be run on the root directory when tesing.
+
+
 ## Some cool tools to speed up the process....
 
 You can use the following technologys to create MSIX Apps and pepare into MSIX App Attach quickly.
