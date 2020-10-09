@@ -27,6 +27,10 @@ https://aka.ms/msixmgr
 
 ## in progress.... not released. Contact for more info.
 
+a Cim image looks like this:
+
+https://github.com/RMITBLOG/MSIX_APP_ATTACH/blob/master/TC5vlEDh.png
+
 The Json should look like the following example:
 
     "vhdFileName": "not needed",
