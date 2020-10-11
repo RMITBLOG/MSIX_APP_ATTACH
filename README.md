@@ -47,7 +47,7 @@ cimutil.exe d "volume guid"
 
 Cim images must be run on the root directory when tesing.
 
-The following sample applications have been included:
+The following sample applications will be uploaded in due course:
 
 1. Pinball
 2. Yandex
