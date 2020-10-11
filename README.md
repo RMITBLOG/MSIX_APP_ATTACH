@@ -50,10 +50,9 @@ Cim images must be run on the root directory when tesing.
 The following sample applications will be uploaded in due course:
 
 1. Pinball
-2. Yandex
-3. Putty
-4. MS Edge
-5. Notepadpp
+2. Putty
+3. MS Edge
+4. Notepadpp
 
 Ensure you install the provided certificate into the root before using these cim images with MSIX App Attach.
 
