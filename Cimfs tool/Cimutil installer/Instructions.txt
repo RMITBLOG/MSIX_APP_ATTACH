@@ -1,0 +1,8 @@
+Questiosn - message me on https://ryanmangansitblog.com
+
+you may be required to install (x86) and (x64) Microsoft Visual Studio c++ 2015-2019 Redistributable.
+
+Ensure you are on Windows 10 Build 2004 or higher!
+
+Run the cimutil in CMD as a administrator.
+
