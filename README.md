@@ -25,7 +25,6 @@ https://aka.ms/msixmgr
 
 # (Composite Images (CIMs))
 
-## in progress.... not released. Contact for more info.
 
 A Cim image looks like this:
 
@@ -45,7 +44,8 @@ cimutil.exe m "filename.cim"
 
 cimutil.exe d "volume guid" 
 
-Cim images must be run on the root directory when tesing.
+Cim images can be run in any folder directory 
+update on the 01/02/2021 - Cim images can be run in any folder diretory - fixed/
 
 The following sample applications will be uploaded in due course:
 
@@ -76,6 +76,7 @@ You can use the following technologys to create MSIX Apps and pepare into MSIX A
 
 - Create MSIX Apps without any installation media https://www.appcure.io/
 - MSIX App attach ready in Seconds - https://www.appattach.co.uk/ 
+- appventix - https://appventix.com/
 
 
 
