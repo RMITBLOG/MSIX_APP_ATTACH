@@ -1,8 +1,0 @@
-For a licence key message ryan on https://ryanmangansitblog.com
-
-The Installer will install both (x86) Microsoft Visual Studio c++ 2015-2019 Redistributable.
-
-Ensure you are on Windows 10 Build 2004 or higher!
-
-Run the cimutil in commandline as a administrator.
-
