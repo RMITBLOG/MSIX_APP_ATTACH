@@ -7,8 +7,12 @@
 	 Filename:     	list-cims.ps1
 	===========================================================================
 	.DESCRIPTION
-		script to list only CIMFS mounted images with drive letter and guid.
+		script to list only CIMFS mounted images
 #>
 
 
 Get-ciminstance -classname win32_volume | where filesystem -EQ 'cimfs' | select name, filesystem, DeviceID
+
+
+
+
