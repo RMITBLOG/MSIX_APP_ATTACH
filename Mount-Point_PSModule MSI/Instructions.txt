@@ -1,0 +1,3 @@
+Get-mountpoints shows all mounted volumes and lists the file system type. Useful for CIM
+
+Show-cim shows all mounted Cim images on the host machine.
