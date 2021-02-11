@@ -7,7 +7,7 @@
 	 Filename:     	list-cims.ps1
 	===========================================================================
 	.DESCRIPTION
-		script to list only CIMFS mounted images
+		script to list only CIMFS mounted images with drive letter and guid.
 #>
 
 
