@@ -12,6 +12,7 @@
 
 
 
+Get-ciminstance -classname win32_volume | where filesystem -EQ 'cimfs' | select name, filesystem, DeviceID
 
 
 
