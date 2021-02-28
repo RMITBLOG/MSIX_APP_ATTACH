@@ -1,0 +1,39 @@
+<#	
+	.NOTES
+	===========================================================================
+	 Created on:   	19/08/2020 20:31
+	 Created by:   	Ryan Mangan
+	 Organization: 	Ryan Mangans IT Blog ltd
+	 website: 		https://ryanmangansitblog.com
+	 Filename:     	AppattachDeregister.ps1
+	===========================================================================
+	.DESCRIPTION
+		MSIX App Attach Deregister Script
+
+		This script reads the Json Configuration file, and
+		Deregisters the Application for the user. 
+		
+		Point to note, ensure the VHD and json are in the same location as the script for this to work correctly.
+
+
+		Its recommended that all scripts are signed to remove the need to elivate or change the remote execution policy on the host this script is being run.
+#>
+
+
+
+
+$configFPath = (Get-ChildItem $PSScriptRoot -Filter *.json | Select-Object -First 1).FullName;
+if ($null -eq $configFPath)
+{
+	throw "Missing config file Json!";
+}
+
+$configFile = Get-Content $configFPath -Raw | ConvertFrom-Json;
+
+foreach ($package in $configFile)
+{
+	$packageName = $package.packageName;
+	Remove-AppxPackage -PreserveRoamableApplicationData $packageName
+}
+
+
