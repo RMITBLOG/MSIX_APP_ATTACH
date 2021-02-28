@@ -75,9 +75,11 @@ Ensure you install the provided certificate into the root before using these cim
 You can use the following technologys to create MSIX Apps and pepare into MSIX App Attach quickly.
 
 - Create MSIX Apps without any installation media https://www.appcure.io/
-- MSIX App attach ready in Seconds - https://www.appattach.co.uk/ 
+- CIMUTIL (community tool) - mount and dismount CIMFS DRIVE letters and volumes. both options availble. [CIMTool](https://github.com/RMITBLOG/MSIX_APP_ATTACH/tree/master/Cimfs%20tool/Cimutil%20installer) 
+- CIMFS powershell Module - get-mountpoints & Get-CIMs [GetMountpoints](https://github.com/RMITBLOG/MSIX_APP_ATTACH/tree/master/Mount-Point_PSModule%20MSI)
 - appventix - https://appventix.com/
-
-
+- Powershell Scripts - VHD/VHDX - [App attach scripts VHD/VHDX](https://github.com/RMITBLOG/MSIX_APP_ATTACH/tree/master/VHD%20MSIX%20App%20Attach%20Scripts)
+- Powershell Scripts - CIMFS - [App attach Scripts CIMFS](https://github.com/RMITBLOG/MSIX_APP_ATTACH/tree/master/Cim%20Scripts)
+- Scripts to Identify CIM's and how to handle CIMFS Sprawl [CIM Management scripts](https://github.com/RMITBLOG/MSIX_APP_ATTACH/tree/master/Cim%20Scripts)
 
 Find out more on WVD and VDI - https://ryanmangansitblog.com
