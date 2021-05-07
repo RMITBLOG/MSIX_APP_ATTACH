@@ -15,14 +15,9 @@
 #>
 
 
-
-
-
 #Run app on user logon.
 
 New-ItemProperty -Path HKLM:\Software\Microsoft\Windows\CurrentVersion\Run -Name MSIXLOGEXPLORER -Value "C:\Program Files\Ryanmangansitblog ltd\MSIX Log Explorer\MSIX log Explorer.exe"
-
-
 
 
 # Define where to store logs
@@ -51,5 +46,3 @@ msiexec /i "C:\temp\MSIXLOGEXPLORER.msi" /q /n
 Start-Sleep -s 2
 
 Write-Host "Installation complete"
-
- 
