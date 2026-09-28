@@ -74,7 +74,7 @@ Ensure you install the provided certificate into the root before using these cim
 
 You can use the following technologys to create MSIX Apps and pepare into MSIX App Attach quickly.
 
-- Create MSIX Apps without any installation media https:/www.etherapps.ai
+- Create MSIX Apps without any installation media [EtherApps Forge](https://www.efficientether.co.uk)
 - MSIX Community Tooling [MSIXAACT - Community Tooling for MSIX app attach](https://github.com/RMITBLOG/MSIX_APP_ATTACH/blob/master/MSIX%20App%20attach%20Community%20Tooling/MSIXaaCT.msi)
 - CIMUTIL (community tool) - mount and dismount CIMFS DRIVE letters and volumes. both options availble. [CIMTool](https://github.com/RMITBLOG/MSIX_APP_ATTACH/tree/master/Cimfs%20tool/Cimutil%20installer) 
 - CIMFS powershell Module - get-mountpoints & Get-CIMs [GetMountpoints](https://github.com/RMITBLOG/MSIX_APP_ATTACH/tree/master/Mount-Point_PSModule%20MSI)
